@@ -1,3 +1,5 @@
+package While;
+
 import java.util.Scanner;
 
 public class nota {
@@ -8,9 +10,9 @@ public class nota {
         nota = scanner.nextInt();
 
         while (nota < 0 || nota > 10){
-            System.out.println("Informe uma nota valida.Digite novamente:");
+            System.out.println("Informe uma While.nota valida.Digite novamente:");
             nota = scanner.nextInt();
-
+//
         }
     }
 }
